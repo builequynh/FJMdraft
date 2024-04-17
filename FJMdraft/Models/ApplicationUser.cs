@@ -17,7 +17,7 @@ namespace FJMdraft.Models{
         public int? CompanyId {get;set;} /*Job Seeker có thể chưa có job 
         => companyId có thể trống*/
         [ForeignKey("CompanyId")] //tạo khóa ngoại
-        public Company Company {get;set;} //giúp chương trình biết lấy khóa ngoại từ model nào
+        public Company Company {get;set;} //giúp chương trình biết là khóa ngoại từ model nào
 
 
     }

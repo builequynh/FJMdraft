@@ -14,7 +14,8 @@ namespace FJMdraft.Models{
         public DateTime CreatedAt {get;set;}
         public string? CreatedByUserId {get;set;} //? tương tự trên
         [ForeignKey("CreatedByUserId")] //tạo khóa ngoại
-        public ApplicationUser? CreatedByUser {get;set;} //cho chương trình hiểu lấy khóa ngoại từ models nào
+        public ApplicationUser? CreatedByUser {get;set; } /*giúp chương trình biết là khóa ngoại từ model nào
+                                                          * có thể ko được tạo bởi user*/
 
     }
 }
