@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FJMdraft.Models
+namespace FJMdraft.OriModels
 {
     public class Job
     {

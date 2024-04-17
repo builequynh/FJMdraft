@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+using System;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
-namespace FJMdraft.Models
-{
-    public class ApplicationUser : IdentityUser
-    {
-        public virtual string FullNamme { get; set; }
-        public virtual DateTime CreatedDate { get; set; }
-        public virtual int StatusId { get; set; }
+namespace FJMdraft.Models{
+    public class ApplicationUser : IdentityUser { //kế thừa class IdentityUser
+        [Required]
+        
     }
 }

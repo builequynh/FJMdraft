@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FJMdraft.Models
+namespace FJMdraft.OriModels
 {
     public class Role
     {

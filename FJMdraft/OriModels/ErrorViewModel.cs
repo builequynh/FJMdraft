@@ -1,4 +1,4 @@
-namespace FJMdraft.Models
+namespace FJMdraft.OriModels
 {
     public class ErrorViewModel
     {

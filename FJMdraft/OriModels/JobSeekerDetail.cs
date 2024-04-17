@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System;
 
-namespace FJMdraft.Models
+namespace FJMdraft.OriModels
 {
     public class JobSeekerDetail
     {
